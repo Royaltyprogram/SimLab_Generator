@@ -1,0 +1,17 @@
+# Virtual Environment
+.venv/
+
+# macOS system files
+.DS_Store
+
+# Project specific directories
+results/
+
+# Python cache files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Sensitive data
+main/api_keys.json
