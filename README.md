@@ -175,6 +175,105 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+📝 Example Prompt
+Here's an educational simulation designed to visually demonstrate the learning process of the self-attention algorithm:
+1. Step-by-Step Visualization
+Step 1: Input Sentence Tokenization and Embedding
+
+Display sentence separation into tokens
+Animate the process of converting each token into embedding vectors
+Visualize embedding vector dimensions using colorful bar graphs
+
+Step 2: Q, K, V Vector Generation Process
+
+Matrix multiplication animation showing embeddings being multiplied with WQ, WK, WV matrices
+Display generated Q, K, V vectors in distinct colors
+Popup shows actual vector values on mouse hover
+
+Step 3: Attention Score Calculation
+
+Visual matrix representation of dot product calculations between Query and Key vectors
+Darker colors indicate higher scores
+Line thickness between token pairs represents relationship strength
+
+Step 4: Scaling and Softmax
+
+Animate value adjustment during scaling process
+Visualize probability conversion after Softmax using pie charts or bar graphs
+Display attention weights between tokens using heatmap
+
+Step 5: Final Output Generation
+
+Visualize the summation process of weighted Value vectors
+Display final output vectors alongside original tokens
+
+2. Interactive Elements
+Token Selection Features
+
+Click tokens to view detailed attention relationships from that token's perspective
+Display detailed Q, K, V vector values for selected tokens
+
+Visualization Controls
+
+Play/pause/rewind controls for each step
+Animation speed adjustment slider
+Toggle buttons for detailed explanations of each step
+
+Parameter Adjustments
+
+Embedding dimension size control
+Attention head count adjustment (for Multi-head attention extension)
+Scaling factor adjustment
+
+3. Additional Features
+Explanation Panel
+
+Display formulas and explanations for each step in right panel
+Highlight current active step
+
+Comparison Features
+
+Side-by-side view to compare attention patterns across sentences
+Provide examples showing similar patterns in different sentences
+
+Performance Metrics
+
+Display statistical information of calculated attention scores
+Graph showing distribution of token relationship strengths
+
+4. Educational Elements
+Step-by-Step Quizzes
+
+Brief comprehension checks after each step
+Prediction challenges (predict next step results)
+
+Guide Mode
+
+Step-by-step tutorial for first-time users
+Key concept explanation popups
+
+Example Sets
+
+Provide diverse example sentences
+Explain key learning points for each example
+
+5. Visualization Design
+Color Scheme
+
+Consistent color coding for Q, K, V vectors
+Gradients to represent attention intensity
+Colorblind-friendly accessible design
+
+Layout
+
+Natural left-to-right process flow
+Central placement for key information, side panels for additional info
+Responsive design supporting various screen sizes
+
+This visualization enables users to intuitively understand each step of self-attention while observing its operation with real data. The interactive elements facilitate active learning, and the step-by-step visualization makes it easier to understand complex algorithms.
+
+--> output: https://simlabapp.com/simulation/AKioPu8cmjcCw9bL3OOK 
+
 ## 🤝 Contributing
 Contributions are always welcome! Please feel free to submit a Pull Request.
 
